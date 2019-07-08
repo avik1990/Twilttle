@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Twilttle</string>
+    <string name="no_internet_msg">No Internet Connection</string>
+
+    <string name="base_url">http://www.rajtutorialgroup.com/pet_food/webservice/</string>
+    <string name="share_pkg" translatable="false">Twilttle \n Download now.\n\nhttps://play.google.com/store/apps/details?id= </string>
+    <string name="green_color">#4ec95c</string>
+</resources>

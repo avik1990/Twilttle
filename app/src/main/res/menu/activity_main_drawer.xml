@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about"
+            android:title="About Twittle Products" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Post Your Feedback" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/contact"
+            android:title="Our Contacts" />
+
+        <item
+            android:id="@+id/nav_shareapp"
+            android:icon="@drawable/share"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/nav_rateapp"
+            android:icon="@drawable/rate"
+            android:title="Rate App" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/terms"
+                android:title="Terms &amp; Conditions" />
+
+            <item
+                android:id="@+id/nav_privacypolicy"
+                android:icon="@drawable/privacy"
+                android:title="Privacy Policy" />
+
+            <item
+                android:id="@+id/nav_shipping"
+                android:icon="@drawable/shipping"
+                android:title="Shipping &amp; Delivery" />
+            <item
+                android:id="@+id/nav_refund"
+                android:icon="@drawable/refund"
+                android:title="Refund &amp; Return" />
+            <item
+                android:id="@+id/nav_replacement"
+                android:icon="@drawable/ic_return"
+                android:title="Replacement" />
+            <item
+                android:id="@+id/nav_ordercancellation"
+                android:icon="@drawable/replacement"
+                android:title="Order Cancellation" />
+        </menu>
+    </item>
+
+
+    <item android:title="Social Links">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_pinterest"
+                android:icon="@drawable/pinterest"
+                android:title="Pinterest" />
+        </menu>
+    </item>
+</menu>

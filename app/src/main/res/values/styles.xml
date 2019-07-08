@@ -1,0 +1,198 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colornormal</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="listPreferredItemHeightSmall">@dimen/_40sdp</item>
+    </style>
+
+    <style name="ThemeButtonWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonFb" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/fb</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/fb</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonGrey" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/dark_grey</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="ThemeButtonGplus" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorButtonNormal">@color/gplus</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/grey</item>
+        <item name="colorControlHighlight">@color/grey</item>
+    </style>
+
+    <style name="AppThemeDashboard" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/backgroundWhite</item>
+        <item name="titleTextStyle">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/backgroundWhite</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeRegister" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/dark_grey</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDashboard.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeRegister.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDashboard.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeRegister.NoActionBar.NoTranslucent">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Base2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/dark_grey</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+
+    <style name="AppCompatAlertDialogStyle1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#5fa3d0</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#C62828</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="CaldroidDefaultCalendarViewLayout">
+        <item name="android:background">@color/caldroid_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CaldroidDefaultArrowButton">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+
+
+    <style name="CaldroidDefaultMonthName">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="CaldroidDefaultGridView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:listSelector">@null</item>
+        <item name="android:background">@color/caldroid_lighter_gray</item>
+        <item name="android:horizontalSpacing">1dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:verticalSpacing">1dp</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCalendarViewLayout" parent="CaldroidDefaultCalendarViewLayout">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkMonthName" parent="CaldroidDefaultMonthName">
+        <item name="android:textColor">@color/caldroid_white</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkGridView" parent="CaldroidDefaultGridView">
+        <item name="android:background">@color/caldroid_middle_gray</item>
+    </style>
+</resources>
